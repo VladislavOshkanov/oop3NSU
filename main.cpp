@@ -26,3 +26,4 @@ int main() {
  std::cout << "Quantity of figures after:" << Shape::getCount() << '\n';
 
 }
+
