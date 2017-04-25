@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b78d947e_81207175",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-25T03:29:12Z",
+      "side": 1,
+      "message": "Вы осилили геррит, круто, но где файлы?",
+      "revId": "919e8f7a99e51c8f3f743226731de011f60e9b0d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
