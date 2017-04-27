@@ -1,0 +1,147 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cd27a3ac_c59d9dbc",
+        "filename": "Base.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:28:32Z",
+      "side": 1,
+      "message": "лишний",
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "94d5cab4_e1426ad8",
+        "filename": "Base.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:28:32Z",
+      "side": 1,
+      "message": "virtual std::string print() const \u003d 0;\n\n-- так было бы чуть лучше: функционал бы не перекрывался с оператором \u003c\u003c",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 8,
+        "endChar": 47
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bb209d3f_b94ff2dc",
+        "filename": "Base.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:28:32Z",
+      "side": 1,
+      "message": "какой-такой шэйп?",
+      "range": {
+        "startLine": 10,
+        "startChar": 70,
+        "endLine": 10,
+        "endChar": 75
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bd910a2a_0f5a3aa0",
+        "filename": "Base.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:28:32Z",
+      "side": 1,
+      "message": "должен быть виртуальным",
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a23cc6c_a88ace10",
+        "filename": "Base.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:28:32Z",
+      "side": 1,
+      "message": "метод должен быть константным",
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6f55bb00_1778a5f4",
+        "filename": "Base.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:28:32Z",
+      "side": 1,
+      "message": "зачем?",
+      "range": {
+        "startLine": 39,
+        "startChar": 13,
+        "endLine": 39,
+        "endChar": 24
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f3078519_41ba1309",
+        "filename": "Base.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:28:32Z",
+      "side": 1,
+      "message": "предполагаете, что могут быть отрицательные количества?",
+      "range": {
+        "startLine": 55,
+        "startChar": 9,
+        "endLine": 55,
+        "endChar": 12
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
