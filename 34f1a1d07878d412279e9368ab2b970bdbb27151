@@ -145,6 +145,69 @@
     },
     {
       "key": {
+        "uuid": "460cd579_c07ab558",
+        "filename": "Container.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:42:47Z",
+      "side": 1,
+      "message": "дополнительное копирование объекта",
+      "range": {
+        "startLine": 38,
+        "startChar": 18,
+        "endLine": 38,
+        "endChar": 27
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "877c42b3_02b599c0",
+        "filename": "Container.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:42:47Z",
+      "side": 1,
+      "message": "лишнее копирование объекта (если вызывателю не нужна копия)",
+      "range": {
+        "startLine": 100,
+        "startChar": 2,
+        "endLine": 100,
+        "endChar": 4
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "15d12b56_f2628714",
+        "filename": "Container.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:42:47Z",
+      "side": 1,
+      "message": "плохо: сложность O(n)",
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "03f321d9_488c497e",
         "filename": "Shapes.h",
         "patchSetId": 1
