@@ -142,6 +142,138 @@
       "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "03f321d9_488c497e",
+        "filename": "Shapes.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:37:51Z",
+      "side": 1,
+      "message": "не ставится",
+      "range": {
+        "startLine": 8,
+        "startChar": 37,
+        "endLine": 8,
+        "endChar": 38
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a5bef472_d032f4e3",
+        "filename": "Shapes.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:37:51Z",
+      "side": 1,
+      "message": "\u0026",
+      "range": {
+        "startLine": 9,
+        "startChar": 22,
+        "endLine": 9,
+        "endChar": 32
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "80ba7c1d_5e6f0ae4",
+        "filename": "Shapes.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:37:51Z",
+      "side": 1,
+      "message": "это лучше в блок инициализации",
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b79bbd22_c74c4bb1",
+        "filename": "Shapes.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:37:51Z",
+      "side": 1,
+      "message": "указатель плохо, лучше звёздочку стереть",
+      "range": {
+        "startLine": 70,
+        "startChar": 2,
+        "endLine": 70,
+        "endChar": 9
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3de7849b_aeaad258",
+        "filename": "Shapes.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:37:51Z",
+      "side": 1,
+      "message": "аналогично",
+      "range": {
+        "startLine": 107,
+        "startChar": 8,
+        "endLine": 107,
+        "endChar": 10
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd0263b7_85ba7a7b",
+        "filename": "Shapes.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1001276
+      },
+      "writtenOn": "2017-04-27T07:37:51Z",
+      "side": 1,
+      "message": "а чё не просто: полигон -- неследник полилайна?",
+      "range": {
+        "startLine": 188,
+        "startChar": 6,
+        "endLine": 188,
+        "endChar": 34
+      },
+      "revId": "34f1a1d07878d412279e9368ab2b970bdbb27151",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
