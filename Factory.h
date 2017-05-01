@@ -28,7 +28,7 @@ Shape * newFigure ( int type ) {
     case CIRCLE: {
       int radius = rand() % 100;
       Point * center = makePoint();
-      shape = new Circle( "noname", center, radius );
+      shape = new Circle( "noname",  * center, radius );
       delete center;
       break;
     }
@@ -38,7 +38,7 @@ Shape * newFigure ( int type ) {
       int side2 = rand() % 100;
       Point * ul = makePoint();
       Point * dr = new Point ( "noname", ul->getX() + side1, ul->getY() - side2 );
-      shape = new Rect ( "noname", ul, dr );
+      shape = new Rect ( "noname", * ul, * dr );
 
       delete ul;
       delete dr;
@@ -49,7 +49,7 @@ Shape * newFigure ( int type ) {
       int side = rand() % 100;
       Point * ul = makePoint();
       Point * dr = new Point ( "noname", ul->getX() + side, ul->getY() - side );
-      shape = new Square( "noname", ul, dr );
+      shape = new Square( "noname", *ul, *dr );
       delete ul;
       delete dr;
       break;

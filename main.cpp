@@ -3,7 +3,7 @@
 int main() {
  srand ( time ( 0 ) );
  Container <Shape*> figures;
- for ( int i = 0; i < 50; i++ ) {
+ for ( int i = 0; i < 100; i++ ) {
    int type = rand() % 6;
    Shape * sh;
    try{
@@ -17,13 +17,15 @@ int main() {
 
  std::cout << "Quantity of figures before:" << Shape::getCount() << '\n';
 
- for (int i = 0; i < figures.getSize(); i++) {
-   Shape * sh = figures.getNth ( i );
-   sh->print( std::cout );
+ Container<Shape *> :: iterator iter = figures.begin();
+ Container<Shape *> :: iterator end = figures.end();
+ for ( ; !( iter == end );  ) {
+   Shape * sh = *iter;
+   std::cout << sh->print();
    delete sh;
+   ++iter;
  }
- 
+
  std::cout << "Quantity of figures after:" << Shape::getCount() << '\n';
 
 }
-

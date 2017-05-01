@@ -16,6 +16,30 @@ public:
   Node * next;
 };
 
+template<class T> class ContainerIterator {
+public:
+  ContainerIterator( Node<T> * node ) : currentNode ( node ) {}
+
+  void operator ++ () {
+    currentNode = currentNode -> next;
+  }
+
+  T  operator * () {
+    return currentNode -> element;
+  }
+
+  bool operator == (ContainerIterator<T> & right) {
+    return currentNode == right.currentNode;
+  }
+
+  bool operator != (ContainerIterator<T> & right) {
+    return currentNode != right.currentNode;
+  }
+
+private:
+  Node<T> * currentNode;
+};
+
 template<class T> class Container {
 public:
   Container () {
@@ -35,7 +59,7 @@ public:
 
   }
 
-  void pushFirst( T element ) {
+  void pushFirst( T & element ) {
     if ((_first == 0)) {
       Node<T> * node = new Node<T>( element );
       _first = node;
@@ -49,7 +73,7 @@ public:
     size++;
   }
 
-  void pushLast ( T element ) {
+  void pushLast ( T const & element )  {
     if ((_first == 0)) {
       Node<T> * node = new Node<T>( element );
       _first = node;
@@ -97,26 +121,17 @@ public:
     size--;
   }
 
-  T getFirst() {
+  T * getFirst() const {
     if ( _first == 0 ) throw "Container is empty";
-    return _first->element;
+    return & _first->element;
   }
 
-  T getLast() {
+  T * getLast() const {
     if ( _first == 0 ) throw "Container is empty";
-    return _last->element;
+    return & _last->element;
   }
 
-  T getNth ( int n ) {
-    if ( size < n ) throw "Container doesn't have so many elements";
-    Node<T> * p = _first;
-    for ( int i = 0; i < n; i++ ) {
-      p = p->next;
-    }
-    return p->element;
-  }
-
-  int getSize() {
+  int getSize() const {
     return size;
   }
 
@@ -141,6 +156,16 @@ public:
       }
     }
   }
+  typedef ContainerIterator<T> iterator;
+
+  iterator begin() const {
+    return ContainerIterator<T> ( _first );
+  }
+
+  iterator end() const {
+    return ContainerIterator<T> ( 0 );
+  }
+
 
 private:
   int size;
